@@ -12,6 +12,6 @@ def input_to_index(num)
   return modified_num - 1
 end
 
-def move(array, index, ch: "X")
+def move(array, index, ch = "X")
   array[index] = ch
 end
